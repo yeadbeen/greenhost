@@ -1,0 +1,28 @@
+.plans-font{
+    background-color: rgb(126, 188, 17);
+    border: 12px solid rgb(126, 188, 17);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.plans-font2{
+    background-color: red;
+    border: 12px solid red;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.mt-200{
+    margin-top: 200px;
+}
+.hero-footer2{
+    width: 100%;
+}
+.mt-200neg{
+    margin-top: -200px;
+}
+
+.lastfonts i{
+    border: 2px solid white;
+    border-radius: 50%;
+}

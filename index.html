@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Greenhost Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        header{
+            background-color: rgb(126, 188, 17);
+            height: 769px;
+            width: 100%;
+            /* display: flex; */
+        }
+        nav{
+            background-color: rgb(126, 188, 17);
+        }
+        .nav-buttons{
+            display: inline;
+        }
+        .nav-buttons li{
+            text-decoration: none;
+        }
+        .domain{
+            background-image: url(./images/bg-domain.png);
+            background-repeat: no-repeat;
+            margin-top: 200px;
+        }
+        .hero-footer{
+          margin-top: -160px;
+         width: 100%;}
+        .welcome{
+        margin-top: 200px;
+        }
+        footer{
+    background-color: rgb(126, 188, 17);
+    width: 100%;
+    height: 700px;
+}
+    </style>
+</head>
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg pt-3">
+            <h1 class=" text-light">
+                <i class="fa-solid fa-server"></i>
+                GreenHost
+            </h1>
+            <div class="collapse navbar-collapse mt-1" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-light fs-4" href="#">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-4" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light fs-4" href="#">DOMAIN<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-light fs-4" href="#">HOSTING<span class="sr-only">(current)</span></a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light fs-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PAGES
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light fs-4" href="#">CONTACT<span class="sr-only">(current)</span></a>
+                  </li>
+              </ul>
+              <i class="fa-solid fa-magnifying-glass ms-3 text-danger fs-4"></i>
+              <button type="button" class="btn btn-danger btn-lg ms-4">Register</button>
+
+            </div>
+          </nav>
+         <div class="row mt-5">
+            <div class="col-6 mt-5">
+                <h2 class="fs-1 text-light"><strong>Shared Hosting</strong></h2>
+                <p class="text-light fs-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, illum. Lorem ipsum dolor sit amet.
+                </p>
+                <p class="text-light fs-4">
+                    Starting at <span class="fs-1"><strong>2.49$</strong></span> /Mo
+                </p>
+                <button type="button" class="btn btn-danger btn-lg">Get Started Now</button>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                    <div class="col-8"><img src="./images/hero.png" alt=""></div>
+                    <div class="col-4"><img src="./images/bg-line.png" alt=""></div>
+                </div>
+              </div>
+         </div>
+    </div>
+    <img class="img-fluid hero-footer" src="./images/bg-bottom-hero.png" alt="">
+</header>
+
+<body>
+    <div class="container">
+        <!-- Domain part starts -->
+        <section class="domain" id="#domain">
+            <div class="row">
+                <div class="col-8 ms-auto me-auto">
+                    <h2 class="display-1 text-center"><strong>Search Your Domain</strong></h2>
+                    <p class="fs-4 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ad, deleniti nulla quia odit in architecto  doloremque? Dicta, pariatur!</p>
+                </div>
+            </div>
+            <div class="col-2 ms-auto me-auto fs-3">
+                <hr class="text-dark" style="width: 100%;">
+                <hr style="width: 60%; color: rgb(126, 188, 17);" class="ms-auto me-auto">
+                <hr class="text-dark" style="width: 100%;">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-success">Success</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2">
+                    <h2 class="text-success"><strong>.com</strong></h2>
+                    <p class="fs-4">9.99/year</p>
+                </div>
+                <div class="col-2">
+                    <h2 class="text-success"><strong>.net</strong></h2>
+                    <p class="fs-4">9.99/year</p>
+                </div>
+                <div class="col-2">
+                    <h2 class="text-success"><strong>.org</strong></h2>
+                    <p class="fs-4">9.99/year</p>
+                </div>
+                <div class="col-2">
+                    <h2 class="text-success"><strong>.us</strong></h2>
+                    <p class="fs-4">9.99/year</p>
+                </div>
+                <div class="col-2">
+                    <h2 class="text-success"><strong>.eu</strong></h2>
+                    <p class="fs-4">9.99/year</p>
+                </div>
+                <div class="col-2">
+                    <h2 class="text-success"><strong>.co.uk</strong></h2>
+                    <p class="fs-4">9.99/year</p>
+                </div>
+              </div>
+        </section>
+        <!-- Domain part ends -->
+
+        <!-- Welcome part starts -->
+        <section class="welcome" id="#welcome">
+            <div class="row">
+                <div class="col-7">
+                    <h2 class="fs-1">Welcome to GreenHost</h2>
+                    <div class="col-2 me-auto">
+                        <hr class="text-dark" style="width: 70%;">
+                        <hr style="width: 100%; color: rgb(126, 188, 17);" class="me-auto">
+                        <hr class="text-dark" style="width: 70%;">
+                    </div>
+                    <p class="fs-5">
+                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet
+                        diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo
+                        justo magna dolore erat amet
+                    </p>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card text-dark bg-light mb-3 text-center" style="max-width: 18rem;">
+                                <div class="card-header">
+                                    <i class="fa-solid fa-users-gear fs-1 text-success mt-3"></i>
+                                    <p class="fs-1"><strong>1234</strong></p>
+                                    <p class="fs-3">Experts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card text-dark bg-light mb-3 text-center" style="max-width: 18rem;">
+                                <div class="card-header">
+                                    <i class="fa-solid fa-users-line fs-1 text-success mt-3"></i>
+                                    <p class="fs-1"><strong>1234</strong></p>
+                                    <p class="fs-3">Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card text-dark bg-light mb-3 text-center" style="max-width: 18rem;">
+                                <div class="card-header">
+                                    <i class="fa-solid fa-check fs-1 text-success mt-3"></i>
+                                    <p class="fs-1"><strong>1234</strong></p>
+                                    <p class="fs-3">Projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <img src="./images/about.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Welcome part ends -->
+
+        <!-- Hosting plan starts -->
+        <section class="hostingplan" id="hostingplan">
+            <h2 class="fs-1 text-center">Our Hosting Plans</h2>
+            <div class="col-2 ms-auto me-auto">
+               <hr class="text-dark ms-auto me-auto" style="width: 50%;">
+               <hr style="width: 100%; color: rgb(126, 188, 17);" class=" ms-auto me-auto">
+            <hr class="text-dark ms-auto me-auto" style="width: 50%;">
+            </div>
+            <p class="fs-5 col-8 ms-auto me-auto text-center">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet
+                diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo
+            </p>
+            <div class="row">
+                <div class="col-4 mt-5">
+                    <div class="col-3 ms-auto me-auto">
+                        <i class="fa-solid fa-share-nodes text-light plans-font"></i>
+                    </div>
+                    <div class="card plan-card" style="width: 95%;">
+                        <div class="bg-success" style="width: 100%; height: 5px; border-radius: 10%;"></div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h2 class="text-center mt-2">Share Hosting</h2>
+                                <p class="text-center">Lorem ipsum, dolor adipisicing elit. Aperiam consequatur odio nostrum?</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="text-success text-center">Latest Offer - Save 30%</p>
+                                <p class="text-center fs-5"><strong class="fs-1">2.49$</strong>/Mo</p>
+                                <div class="text-center"><button type="button" class="btn btn-success btn-lg mb-3">Buy Now</button></div>
+                            </li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>100 GB Disk space</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>Unlimited Bandwith</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>Upgrade to Positive SSL</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>Automatic Malware Removal</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>30 Days Money Back Guarantee</li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-4 mt-5">
+                    <div class="col-3 ms-auto me-auto">
+                        <i class="fa-solid fa-server text-light plans-font2"></i>
+                    </div>
+                    <div class="card plan-card" style="width: 90%;">
+                        <div class="bg-danger" style="width: 100%; height: 5px; border-radius: 10%;"></div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h2 class="text-center mt-2">VPS Hosting</h2>
+                                <p class="text-center">Lorem ipsum, dolor adipisicing elit. Aperiam consequatur odio nostrum?</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="text-success text-center">Latest Offer - Save 30%</p>
+                                <p class="text-center fs-5"><strong class="fs-1">5.49$</strong>/Mo</p>
+                                <div class="text-center"><button type="button" class="btn btn-danger btn-lg mb-3">Buy Now</button></div>
+                            </li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-danger me-3"></i>100 GB Disk space</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-danger me-3"></i>Unlimited Bandwith</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-danger me-3"></i>Upgrade to Positive SSL</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-danger me-3"></i>Automatic Malware Removal</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-danger me-3"></i>30 Days Money Back Guarantee</li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-4 mt-5">
+                    <div class="col-3 ms-auto me-auto">
+                        <i class="fa-solid fa-gear text-light plans-font"></i>
+                    </div>
+                    <div class="card plan-card" style="width: 90%;">
+                        <div class="bg-success" style="width: 100%; height: 5px; border-radius: 10%;"></div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h2 class="text-center mt-2">Dedi Hosting</h2>
+                                <p class="text-center">Lorem ipsum, dolor adipisicing elit. Aperiam consequatur odio nostrum?</p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="text-success text-center">Latest Offer - Save 30%</p>
+                                <p class="text-center fs-5"><strong class="fs-1">11.49$</strong>/Mo</p>
+                                <div class="text-center"><button type="button" class="btn btn-success btn-lg mb-3">Buy Now</button></div>
+                            </li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>100 GB Disk space</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>Unlimited Bandwith</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>Upgrade to Positive SSL</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>Automatic Malware Removal</li>
+                            <li class="list-group-item"><i class="fa-solid fa-check text-success me-3"></i>30 Days Money Back Guarantee</li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Hosting plan ends -->
+
+        <!-- share vs dedicated part start -->
+        <section class="sharevsdedicate mt-200" id="sharevsdedicate">
+            <h2 class="fs-1 text-center">Shared VS Dedicated Server</h2>
+            <div class="col-2 ms-auto me-auto">
+               <hr class="text-dark ms-auto me-auto" style="width: 50%;">
+               <hr style="width: 100%; color: rgb(126, 188, 17);" class=" ms-auto me-auto">
+            <hr class="text-dark ms-auto me-auto" style="width: 50%;">
+            </div>
+            <p class="fs-5 col-8 ms-auto me-auto text-center">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet
+                diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo
+            </p>
+            <div class="row">
+                <div class="col-6 mt-5">
+                    <h2 class="fs-1">Shared Server</h2>
+                    <div class="col-2 me-auto">
+                        <hr class="text-dark" style="width: 70%;">
+                        <hr style="width: 100%; color: rgb(126, 188, 17);" class="me-auto">
+                        <hr class="text-dark" style="width: 70%;">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <i class="fa-solid fa-server text-success fs-1 mt-3"></i>
+                            <h3 class="mt-3">99.99% Uptime</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium praesentium asperiores architecto commodi!</p>
+                            <i class="fa-solid fa-gear text-success fs-1 mt-3"></i>
+                            <h3 class="mt-3">Control Panel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium praesentium asperiores architecto commodi!</p>
+                        </div>
+                        <div class="col-6">
+                            <i class="fa-solid fa-shield-halved text-success fs-1 mt-3"></i>
+                            <h3 class="mt-3">100% Secured</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium praesentium asperiores architecto commodi!</p>
+                            <i class="fa-solid fa-phone-volume text-success fs-1 mt-3"></i>
+                            <h3 class="mt-3">24/7 Support</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium praesentium asperiores architecto commodi!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 mt-5">
+                    <h2 class="fs-1">Shared Server</h2>
+                    <div class="col-2 me-auto">
+                        <hr class="text-dark" style="width: 70%;">
+                        <hr style="width: 100%; color: rgb(126, 188, 17);" class="me-auto">
+                        <hr class="text-dark" style="width: 70%;">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <i class="fa-solid fa-server text-danger fs-1 mt-3"></i>
+                            <h3 class="mt-3">99.99% Uptime</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium praesentium asperiores architecto commodi!</p>
+                            <i class="fa-solid fa-gear text-danger fs-1 mt-3"></i>
+                            <h3 class="mt-3">Control Panel</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium praesentium asperiores architecto commodi!</p>
+                        </div>
+                        <div class="col-6">
+                            <i class="fa-solid fa-shield-halved text-danger fs-1 mt-3"></i>
+                            <h3 class="mt-3">100% Secured</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium praesentium asperiores architecto commodi!</p>
+                            <i class="fa-solid fa-phone-volume text-danger fs-1 mt-3"></i>
+                            <h3 class="mt-3">24/7 Support</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium praesentium asperiores architecto commodi!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- share vs dedicated part ends -->
+
+        <!-- comments part starts -->
+        <section class="comments mt-200">
+            <div class="row">
+                <div class="col-4">
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 5px;"></div>
+                    <div class="card bg-light mb-3" style="max-width: 90%;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia pariatur atque doloribus dolorem molestias? Ut in ab dolore? Doloremque voluptas maxime repellendus eveniet?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="./images/people/360_F_232879585_VrjtACAFvzHRuEP8fH8K5EhRkOThuS4G.jpg" alt="" class="rounded-circle img-fluid ms-1">
+                            </div>
+                            <div class="col-8">
+                                <h4>Client Name</h4>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="bg-danger rounded-right rounded-left" style="width: 90%; height: 5px;"></div>
+                    <div class="card bg-success mb-3" style="max-width: 90%;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia pariatur atque doloribus dolorem molestias? Ut in ab dolore? Doloremque voluptas maxime repellendus eveniet?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="./images/people/5-ways-to-maintain-water-system-safety.jpg" alt="" class="rounded-circle img-fluid ms-1">
+                            </div>
+                            <div class="col-8">
+                                <h4>Client Name</h4>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 5px;"></div>
+                    <div class="card bg-light mb-3" style="max-width: 90%;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia pariatur atque doloribus dolorem molestias? Ut in ab dolore? Doloremque voluptas maxime repellendus eveniet?</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="./images/people/Developing-individual-contributors2.jpg" alt="" class="rounded-circle img-fluid ms-1">
+                            </div>
+                            <div class="col-8">
+                                <h4>Client Name</h4>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- comments part ends -->
+
+        <!-- Team members part start -->
+        <section class="teammembers mt-200">
+            <h2 class="fs-1 text-center">Our Team Members</h2>
+            <div class="col-2 ms-auto me-auto">
+               <hr class="text-dark ms-auto me-auto" style="width: 50%;">
+               <hr style="width: 100%; color: rgb(126, 188, 17);" class=" ms-auto me-auto">
+            <hr class="text-dark ms-auto me-auto" style="width: 50%;">
+            </div>
+            <p class="fs-5 col-8 ms-auto me-auto text-center">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet
+                diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo
+            </p>
+            <div class="row">
+                <div class="col-3">
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 5px;"></div>
+                    <div class="card text-bg-light" style="max-width: 90%;">
+                        <div class="card-body">
+                          <img src="./images/people/images.jpg" alt="" class="img-fluid  rounded-circle">
+                          <h3 class="text-center">Full Name</h3>
+                          <p class="card-text text-center">Designation</p>
+                        </div>
+                    </div>
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 50px;">
+                        <div class="col-5 ms-auto me-auto pt-2">
+                            <i class="fa-brands fa-square-facebook fs-2 text-light"></i>
+                            <i class="fa-brands fa-square-twitter fs-2 text-light "></i>
+                            <i class="fa-brands fa-square-instagram fs-2 text-light"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 5px;"></div>
+                    <div class="card text-bg-light" style="max-width: 90%;">
+                        <div class="card-body">
+                          <img src="./images/people/istockphoto-1337913218-170667a.jpg" alt="" class="img-fluid  rounded-circle">
+                          <h3 class="text-center">Full Name</h3>
+                          <p class="card-text text-center">Designation</p>
+                        </div>
+                    </div>
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 50px;">
+                        <div class="col-5 ms-auto me-auto pt-2">
+                            <i class="fa-brands fa-square-facebook fs-2 text-light"></i>
+                            <i class="fa-brands fa-square-twitter fs-2 text-light "></i>
+                            <i class="fa-brands fa-square-instagram fs-2 text-light"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 5px;"></div>
+                    <div class="card text-bg-light" style="max-width: 90%;">
+                        <div class="card-body">
+                          <img src="./images/people/istockphoto-1337913218-170667a.jpg" alt="" class="img-fluid  rounded-circle">
+                          <h3 class="text-center">Full Name</h3>
+                          <p class="card-text text-center">Designation</p>
+                        </div>
+                    </div>
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 50px;">
+                        <div class="col-5 ms-auto me-auto pt-2">
+                            <i class="fa-brands fa-square-facebook fs-2 text-light"></i>
+                            <i class="fa-brands fa-square-twitter fs-2 text-light "></i>
+                            <i class="fa-brands fa-square-instagram fs-2 text-light"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 5px;"></div>
+                    <div class="card text-bg-light" style="max-width: 90%;">
+                        <div class="card-body">
+                          <img src="./images/people/360_F_232879585_VrjtACAFvzHRuEP8fH8K5EhRkOThuS4G.jpg" alt="" class="img-fluid  rounded-circle">
+                          <h3 class="text-center">Full Name</h3>
+                          <p class="card-text text-center">Designation</p>
+                        </div>
+                    </div>
+                    <div class="bg-success rounded-right rounded-left" style="width: 90%; height: 50px;">
+                        <div class="col-5 ms-auto me-auto pt-2">
+                            <i class="fa-brands fa-square-facebook fs-2 text-light"></i>
+                            <i class="fa-brands fa-square-twitter fs-2 text-light "></i>
+                            <i class="fa-brands fa-square-instagram fs-2 text-light"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team member part ends -->
+    </div>
+</body>
+<footer class="mt-200">
+    <img src="./images/bg-bottom-footer.png" alt="" class="img-fluid hero-footer2">
+    <div class="container mt-200neg">
+        <div class="row mt-5">
+            <div class="col-8">
+                <h2 class="text-light">Subscribe Our Newsletter</h2>
+               <div class="row mt-3">
+                <div class="col-6">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-success me-auto">Submit</button>
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-4">
+                    <h2 class="text-light mt-5">About Us</h2>
+                    <p class="text-light mt-4"><i class="fa-solid fa-chevron-right me-2"></i>About Us</p>
+                    <p class="text-light"><i class="fa-solid fa-chevron-right me-2"></i>Contact Us</p>
+                    <p class="text-light"><i class="fa-solid fa-chevron-right me-2"></i>Privacy Policy</p>
+                    <p class="text-light"><i class="fa-solid fa-chevron-right me-2"></i>Terms & Condition</p>
+                    <p class="text-light"><i class="fa-solid fa-chevron-right me-2"></i>Support</p>
+                </div>
+                <div class="col-4">
+                    <h2 class="text-light mt-5">Our Services</h2>
+                    <p class="text-light mt-4"><i class="fa-solid fa-chevron-right me-2"></i>Domain Register</p>
+                    <p class="text-light"><i class="fa-solid fa-chevron-right me-2"></i>
+                    Shared Hosting</p>
+                    <p class="text-light"><i class="fa-solid fa-chevron-right me-2"></i>VPS Hosting</p>
+                    <p class="text-light"><i class="fa-solid fa-chevron-right me-2"></i>Dedicated Hosting</p>
+                    <p class="text-light"><i class="fa-solid fa-chevron-right me-2"></i>Reseller Hosting</p>
+                </div>
+                <div class="col-4">
+                    <h2 class="text-light mt-5">Get in Touch</h2>
+                    <p class="text-light mt-4"><i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA</p>
+                    <p class="text-light"><i class="fa-solid fa-phone"></i> +012 345 67890</p>
+                    <p class="text-light"><i class="fa-solid fa-envelope"></i>  info@example.com</p>
+                    <div class="lastfonts">
+                        <i class="fa-brands fa-twitter p-2 text-light"></i>
+                        <i class="fa-brands fa-facebook-f p-2 text-light"></i>
+                        <i class="fa-brands fa-youtube p-2 text-light"></i>
+                        <i class="fa-brands fa-linkedin-in p-2 text-light"></i>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-secondary mb-3" style="max-width: 90%;">
+                    <div class="card-body">
+                        <input class="form-control mt-3" type="text" placeholder="Default input" aria-label="default input example">
+                        <input class="form-control mt-2" type="email" placeholder="Default input" aria-label="default input example">
+                        <div class="mb-3 mt-2">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Message</textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-success" type="button">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <hr class="text-light">
+    <div class="container">
+        <div class="row">
+             <div class="col-6"><p class="text-light"><i class="fa-regular fa-copyright"></i><u>GreenHost</u>, All Rights Reserved. Designed By Yeadbeen</p></div>
+             <div class="col-4 ms-auto">
+                <div class="row">
+                    <p class="me-1 text-light col-2">Home</p>
+                    <p class="me-1 text-light col-2">Cookies</p>
+                    <p class="me-1 text-light col-2">Help</p>
+                    <p class="me-1 text-light col-2">FAQs</p>
+                </div>
+             </div>
+        </div>
+       
+        
+    </div>
+</footer>
+</html>
